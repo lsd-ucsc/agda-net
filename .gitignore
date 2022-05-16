@@ -1,0 +1,6 @@
+*.agdai
+*.swp
+build-env*
+result
+src/MAlonzo/
+src/Test
