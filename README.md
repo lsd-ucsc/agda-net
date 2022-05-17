@@ -2,18 +2,18 @@
 
 Expose some of the functions from Haskell `network-simple` in Agda.
 
-There are lots of caveat making this almost a toy. See the source code.
+There are some caveats making this almost a toy. See the source code.
 
 ## example
 
-Start a server in another terminal (caution: should start this server from an empty directory, and make sure to close it later)
+Start a server in a terminal (caution: should start this server from an empty directory, and make sure to close it later)
 
 ```sh-session
 $ python -m http.server 8081
 Serving HTTP on 0.0.0.0 port 8081 (http://0.0.0.0:8081/) ...
 ```
 
-Compile and run the compiled agda in that first terminal
+Compile and run the compiled agda in a different terminal
 
 ```sh-session
 $ agda --compile src/Test.agda
@@ -55,4 +55,4 @@ Got connection from: [::1]:56300
 Waiting for client request
 ```
 
-Feel free to close the demo and the python server now!
+That's the end of the demo. Be sure to close both programs.
